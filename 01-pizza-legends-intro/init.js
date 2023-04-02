@@ -6,3 +6,5 @@
   overworld.init();
 
 })();
+
+console.log('hola');
