@@ -19,6 +19,9 @@ class Sprite {
     this.currentAnimation = config.currentAnimation || "idleDown";
     this.currentAnimationFrame = 0;
    
+   
+   this.gameObject = config.gameObject;
+   
   }
  
  draw(ctx){
